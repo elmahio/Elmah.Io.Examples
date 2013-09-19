@@ -1,11 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Elmah.Io.Examples.ApiClient
 {
@@ -45,7 +42,7 @@ namespace Elmah.Io.Examples.ApiClient
                 fullErrorJson = streamReader.ReadToEnd();
             }
 
-            Console.WriteLine("Successfully loaded: " + fullErrorJson);
+            Console.WriteLine("Successfully loaded: {0}", fullErrorJson);
             Console.WriteLine("Loading errors...");
             request = (HttpWebRequest)WebRequest.Create("http://localhost:54212/api/errors?logid=9732b804-a82e-4537-a280-114dfe4de375");
             request.Method = "GET";
@@ -57,7 +54,7 @@ namespace Elmah.Io.Examples.ApiClient
                 errorsJson = streamReader.ReadToEnd();
             }
 
-            Console.WriteLine("Successfully loaded: " + errorsJson);
+            Console.WriteLine("Successfully loaded: {0}", errorsJson);
             Console.ReadLine();
         }
     }
