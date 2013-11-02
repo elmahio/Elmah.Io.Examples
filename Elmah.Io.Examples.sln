@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Examples.ApiClient
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Examples.ErrorLogApiClient", "Elmah.Io.Examples.ErrorLogApiClient\Elmah.Io.Examples.ErrorLogApiClient.csproj", "{92A7D559-0765-4307-92DE-7754DCC56A07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Examples.WebSite", "Elmah.Io.Examples.WebSite\Elmah.Io.Examples.WebSite.csproj", "{5122E596-09FF-4D30-965D-2F784A758021}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Examples.WebSite", "Elmah.Io.Examples.WebSite\Elmah.Io.Examples.WebSite.csproj", "{C6DCEA29-951A-4AA0-BFB8-40493DBA28B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,10 @@ Global
 		{92A7D559-0765-4307-92DE-7754DCC56A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92A7D559-0765-4307-92DE-7754DCC56A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92A7D559-0765-4307-92DE-7754DCC56A07}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5122E596-09FF-4D30-965D-2F784A758021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5122E596-09FF-4D30-965D-2F784A758021}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5122E596-09FF-4D30-965D-2F784A758021}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5122E596-09FF-4D30-965D-2F784A758021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6DCEA29-951A-4AA0-BFB8-40493DBA28B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DCEA29-951A-4AA0-BFB8-40493DBA28B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DCEA29-951A-4AA0-BFB8-40493DBA28B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DCEA29-951A-4AA0-BFB8-40493DBA28B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
