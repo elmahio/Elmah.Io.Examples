@@ -42,8 +42,9 @@
     <Reference Include="Elmah">
       <HintPath>..\packages\elmah.corelibrary.1.2.2\lib\Elmah.dll</HintPath>
     </Reference>
-    <Reference Include="Elmah.Io">
-      <HintPath>..\packages\elmah.io.1.0.0.25\lib\net40\Elmah.Io.dll</HintPath>
+    <Reference Include="Elmah.Io, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\elmah.io.1.0.0.26\lib\net40\Elmah.Io.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
