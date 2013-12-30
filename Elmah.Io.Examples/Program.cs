@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using System.Web;
+using Newtonsoft.Json;
 using System;
 using System.IO;
 using System.Net;
@@ -16,7 +17,8 @@ namespace Elmah.Io.Examples.ApiClient
             request.ContentType = "application/x-www-form-urlencoded";
             var elmahError = new Error(new ApplicationException());
             var errorString = ErrorXml.EncodeString(elmahError);
-            var bytes = Encoding.UTF8.GetBytes("=" + errorString);
+            var errorStringEncoded = HttpUtility.UrlEncode(errorString);
+            var bytes = Encoding.UTF8.GetBytes("=" + errorStringEncoded);
             request.ContentLength = bytes.Length;
             var outputStream = request.GetRequestStream();
             outputStream.Write(bytes, 0, bytes.Length);
