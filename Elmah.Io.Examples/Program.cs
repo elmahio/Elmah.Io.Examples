@@ -12,7 +12,7 @@ namespace Elmah.Io.Examples.ApiClient
         public static void Main(string[] args)
         {
             Console.WriteLine("Logging a new error...");
-            var request = (HttpWebRequest)WebRequest.Create("http://elmah.io/api/errors?logid=9732b804-a82e-4537-a280-114dfe4de375");
+            var request = (HttpWebRequest)WebRequest.Create("https://elmahio-staging.azurewebsites.net/api/errors?logid=a155630e-82de-43a7-a8de-f0d1007c31c6");
             request.Method = "POST";
             request.ContentType = "application/x-www-form-urlencoded";
             var elmahError = new Error(new ApplicationException());
@@ -34,7 +34,7 @@ namespace Elmah.Io.Examples.ApiClient
             Console.WriteLine("Loading the error...");
 
             dynamic error = JsonConvert.DeserializeObject(errorJson);
-            request = (HttpWebRequest)WebRequest.Create("http://elmah.io/api/errors?id=" + error.Id + "&logid=9732b804-a82e-4537-a280-114dfe4de375");
+            request = (HttpWebRequest)WebRequest.Create("https://elmahio-staging.azurewebsites.net/api/errors?id=" + error.Id + "&logid=a155630e-82de-43a7-a8de-f0d1007c31c6");
             request.Method = "GET";
             response = request.GetResponse();
 
@@ -46,7 +46,7 @@ namespace Elmah.Io.Examples.ApiClient
 
             Console.WriteLine("Successfully loaded: {0}", fullErrorJson);
             Console.WriteLine("Loading errors...");
-            request = (HttpWebRequest)WebRequest.Create("http://elmah.io/api/errors?logid=9732b804-a82e-4537-a280-114dfe4de375");
+            request = (HttpWebRequest)WebRequest.Create("https://elmahio-staging.azurewebsites.net/api/errors?logid=a155630e-82de-43a7-a8de-f0d1007c31c6");
             request.Method = "GET";
             response = request.GetResponse();
 
