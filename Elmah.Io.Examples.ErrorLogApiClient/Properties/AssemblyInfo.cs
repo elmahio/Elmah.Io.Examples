@@ -9,8 +9,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("elmah.io")]
-[assembly: AssemblyProduct("Elmah.Io.Examples.ErrorLogApiClient")]
-[assembly: AssemblyCopyright("Copyright © elmah.io 2013")]
+[assembly: AssemblyProduct("Elmah.Io.Examples")]
+[assembly: AssemblyCopyright("Copyright © elmah.io 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

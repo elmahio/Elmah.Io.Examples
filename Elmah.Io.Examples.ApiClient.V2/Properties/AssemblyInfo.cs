@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Elmah.Io.Examples.ApiClient")]
+[assembly: AssemblyTitle("Elmah.Io.Examples.ApiClient.V2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("elmah.io")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6401707a-b36d-454d-821d-9c0ae98a891d")]
+[assembly: Guid("b3d074f5-c5f3-4539-b8a1-fef3f49204c7")]
 
 // Version information for an assembly consists of the following four values:
 //

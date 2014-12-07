@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Examples.ApiClient", "Elmah.Io.Examples\Elmah.Io.Examples.ApiClient.csproj", "{1B690C64-156F-4175-B79E-EF7FE370BB73}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Examples.ErrorLogApiClient", "Elmah.Io.Examples.ErrorLogApiClient\Elmah.Io.Examples.ErrorLogApiClient.csproj", "{92A7D559-0765-4307-92DE-7754DCC56A07}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Examples.WebSite", "Elmah.Io.Examples.WebSite\Elmah.Io.Examples.WebSite.csproj", "{C6DCEA29-951A-4AA0-BFB8-40493DBA28B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Examples.ApiClient.V2", "Elmah.Io.Examples.ApiClient.V2\Elmah.Io.Examples.ApiClient.V2.csproj", "{2B5E2B57-19B3-453A-823B-D0C06AAA8862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{C6DCEA29-951A-4AA0-BFB8-40493DBA28B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6DCEA29-951A-4AA0-BFB8-40493DBA28B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6DCEA29-951A-4AA0-BFB8-40493DBA28B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5E2B57-19B3-453A-823B-D0C06AAA8862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5E2B57-19B3-453A-823B-D0C06AAA8862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5E2B57-19B3-453A-823B-D0C06AAA8862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5E2B57-19B3-453A-823B-D0C06AAA8862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
