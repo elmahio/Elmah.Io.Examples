@@ -11,7 +11,7 @@ namespace Elmah.Io.Examples.ApiClient.V2
         static void Main(string[] args)
         {
             Console.WriteLine("Logging a new error...");
-            var request = (HttpWebRequest)WebRequest.Create("https://elmah.io/api/v2/messages?logid=e9d63bbe-94e9-4949-9c6d-e74d0ab120e0");
+            var request = (HttpWebRequest)WebRequest.Create("https://elmah.io/api/v2/messages?logid=5194d0ee-0196-40ab-bd7d-365d9d364804");
             request.Method = "POST";
             request.ContentType = "application/x-www-form-urlencoded";
 
@@ -47,7 +47,7 @@ namespace Elmah.Io.Examples.ApiClient.V2
 
             Console.WriteLine("Successfully loaded: {0}", fullErrorJson);
             Console.WriteLine("Loading errors...");
-            request = (HttpWebRequest)WebRequest.Create("https://elmah.io/api/v2/messages?logid=e9d63bbe-94e9-4949-9c6d-e74d0ab120e0");
+            request = (HttpWebRequest)WebRequest.Create("https://elmah.io/api/v2/messages?logid=5194d0ee-0196-40ab-bd7d-365d9d364804");
             request.Method = "GET";
             response = request.GetResponse();
 
