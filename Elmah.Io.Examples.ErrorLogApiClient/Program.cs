@@ -8,7 +8,7 @@ namespace Elmah.Io.Examples.ErrorLogApiClient
         static void Main(string[] args)
         {
             Console.WriteLine("Logging a new error...");
-            var errorLog = new ErrorLog(new Guid("9732b804-a82e-4537-a280-114dfe4de375"));
+            var errorLog = new ErrorLog(new Hashtable { { "LogId", new Guid("cc6043e9-5d7b-4986-8056-cb76d4d52e5e") } });
             var elmahError = new Error(new ApplicationException());
             var id = errorLog.Log(elmahError);
 
