@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Examples.ApiClient
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Examples.LoggerClient", "Elmah.Io.Examples.LoggerClient\Elmah.Io.Examples.LoggerClient.csproj", "{0BFBB4DE-1F8A-4EF7-9898-4AA635D89D60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Examples.Umbraco", "Elmah.Io.Examples.Umbraco\Elmah.Io.Examples.Umbraco.csproj", "{461F5722-62AB-4BA8-A654-B324DFAC8966}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0BFBB4DE-1F8A-4EF7-9898-4AA635D89D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BFBB4DE-1F8A-4EF7-9898-4AA635D89D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BFBB4DE-1F8A-4EF7-9898-4AA635D89D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461F5722-62AB-4BA8-A654-B324DFAC8966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461F5722-62AB-4BA8-A654-B324DFAC8966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461F5722-62AB-4BA8-A654-B324DFAC8966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461F5722-62AB-4BA8-A654-B324DFAC8966}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
