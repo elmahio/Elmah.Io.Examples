@@ -67,14 +67,17 @@
     <Reference Include="Elmah">
       <HintPath>..\packages\elmah.corelibrary.1.2.2\lib\Elmah.dll</HintPath>
     </Reference>
-    <Reference Include="Elmah.Io">
-      <HintPath>..\packages\elmah.io.core.2.0.24\lib\net40\Elmah.Io.dll</HintPath>
+    <Reference Include="Elmah.Io, Version=2.0.29.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\elmah.io.core.2.0.29\lib\net40\Elmah.Io.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Elmah.Io.Client">
-      <HintPath>..\packages\elmah.io.client.2.0.24\lib\net40\Elmah.Io.Client.dll</HintPath>
+    <Reference Include="Elmah.Io.Client, Version=2.0.29.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\elmah.io.client.2.0.29\lib\net40\Elmah.Io.Client.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="elmah.io.umbraco">
-      <HintPath>..\packages\elmah.io.umbraco.1.0.20.0\lib\net45\elmah.io.umbraco.dll</HintPath>
+    <Reference Include="elmah.io.umbraco, Version=1.0.24.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\elmah.io.umbraco.1.0.24\lib\net45\elmah.io.umbraco.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Examine">
       <HintPath>..\packages\Examine.0.1.63.0\lib\Examine.dll</HintPath>
