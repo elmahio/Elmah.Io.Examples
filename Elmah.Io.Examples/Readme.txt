@@ -1,1 +1,0 @@
-﻿This project includes an example of logging errors and getting them back, using the elmah.io REST API v1.
