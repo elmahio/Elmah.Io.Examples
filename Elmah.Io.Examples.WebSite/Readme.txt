@@ -1,1 +1,0 @@
-﻿This project includes an example of installing elmah.io into a ASP.NET MVC website. Access /elmah.axd to see the integration in action.

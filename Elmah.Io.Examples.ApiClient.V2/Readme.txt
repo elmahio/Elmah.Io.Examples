@@ -1,1 +1,0 @@
-﻿This project includes an example of logging messages and getting them back, using the elmah.io REST API v2. Be aware that the v2 API is still in beta.
